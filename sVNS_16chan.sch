@@ -10412,9 +10412,9 @@ Package 0603; Isat = 100 mA</description>
 <label x="22.86" y="170.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IREF" class="0">
+<net name="P0.7_IREF" class="0">
 <segment>
-<label x="33.02" y="154.94" size="1.778" layer="95"/>
+<label x="27.94" y="154.94" size="1.778" layer="95"/>
 <wire x1="48.26" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="154.94" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
