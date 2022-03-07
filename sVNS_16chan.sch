@@ -1010,12 +1010,25 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
 </package>
+<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model">
 <description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
 <packageinstances>
 <packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X01"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1071,6 +1084,15 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="PINHD1">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1155,6 +1177,27 @@ DIN A4, landscape with location and doc. field</description>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
 </spice>
+</deviceset>
+<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X01">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="64" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
 </deviceset>
 </devicesets>
 </library>
@@ -9325,6 +9368,8 @@ Package 0603; Isat = 100 mA</description>
 <part name="R23" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R24" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
 <part name="R25" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="JP1" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
+<part name="JP2" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -9363,9 +9408,9 @@ Package 0603; Isat = 100 mA</description>
 <attribute name="NAME" x="221.742" y="134.747" size="1.778" layer="95"/>
 <attribute name="VALUE" x="221.742" y="131.699" size="1.778" layer="96"/>
 </instance>
-<instance part="ANTENNA" gate="G$1" x="236.22" y="132.08" smashed="yes">
-<attribute name="NAME" x="237.49" y="137.795" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.95" y="127" size="1.778" layer="96"/>
+<instance part="ANTENNA" gate="G$1" x="287.02" y="137.16" smashed="yes">
+<attribute name="NAME" x="288.29" y="142.875" size="1.778" layer="95"/>
+<attribute name="VALUE" x="285.75" y="132.08" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="223.52" y="147.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="224.79" y="145.8214" size="1.778" layer="95" rot="R180"/>
@@ -9458,6 +9503,14 @@ Package 0603; Isat = 100 mA</description>
 <attribute name="NAME" x="54.8894" y="22.098" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="59.182" y="19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="JP1" gate="G$1" x="241.3" y="137.16" smashed="yes" rot="MR180">
+<attribute name="NAME" x="242.57" y="139.065" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="234.95" y="142.24" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="JP2" gate="G$1" x="241.3" y="129.54" smashed="yes" rot="MR180">
+<attribute name="NAME" x="242.57" y="131.445" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="234.95" y="134.62" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9478,11 +9531,9 @@ Package 0603; Isat = 100 mA</description>
 <wire x1="208.28" y1="134.62" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="137.16" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
 <junction x="218.44" y="137.16"/>
-<pinref part="ANTENNA" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="134.62" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="134.62" x2="226.06" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LB" class="0">
@@ -9491,11 +9542,9 @@ Package 0603; Isat = 100 mA</description>
 <wire x1="208.28" y1="132.08" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="129.54" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
 <junction x="218.44" y="129.54"/>
-<pinref part="ANTENNA" gate="G$1" pin="2"/>
-<wire x1="233.68" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="132.08" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="129.54" x2="218.44" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P0.7_IREF" class="0">
@@ -9745,16 +9794,6 @@ Package 0603; Isat = 100 mA</description>
 <label x="241.3" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VOUT"/>
-<wire x1="101.6" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="68.58" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
-<junction x="104.14" y="68.58"/>
-<label x="104.14" y="88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="30.48" y1="17.78" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
 <label x="25.4" y="17.78" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R24" gate="G$1" pin="1"/>
@@ -9887,6 +9926,16 @@ Package 0603; Isat = 100 mA</description>
 <wire x1="30.48" y1="27.94" x2="20.32" y2="27.94" width="0.1524" layer="91"/>
 <label x="27.94" y="27.94" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R24" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
+<wire x1="101.6" y1="68.58" x2="104.14" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="68.58" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
+<junction x="104.14" y="68.58"/>
+<label x="104.14" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3.3V_VDD" class="0">
