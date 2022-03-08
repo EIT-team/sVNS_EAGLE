@@ -9304,6 +9304,146 @@ Package 0603; Isat = 100 mA</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="TSM-130-01-F-SV">
+<packages>
+<package name="SAMTEC_TSM-130-01-F-SV">
+<wire x1="-38.1" y1="-1.27" x2="-38.1" y2="1.27" width="0.1" layer="51"/>
+<wire x1="-38.1" y1="1.27" x2="38.1" y2="1.27" width="0.1" layer="51"/>
+<wire x1="38.1" y1="1.27" x2="38.1" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="38.1" y1="-1.27" x2="-38.1" y2="-1.27" width="0.1" layer="51"/>
+<wire x1="35.56" y1="1.27" x2="38.1" y2="1.27" width="0.2" layer="21"/>
+<wire x1="38.1" y1="1.27" x2="38.1" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="-38.1" y1="-1.27" x2="-38.1" y2="1.27" width="0.2" layer="21"/>
+<wire x1="-38.1" y1="-1.27" x2="-35.56" y2="-1.27" width="0.2" layer="21"/>
+<wire x1="-38.35" y1="-3.425" x2="-38.35" y2="3.425" width="0.05" layer="39"/>
+<wire x1="-38.35" y1="3.425" x2="38.35" y2="3.425" width="0.05" layer="39"/>
+<wire x1="38.35" y1="3.425" x2="38.35" y2="-3.425" width="0.05" layer="39"/>
+<wire x1="38.35" y1="-3.425" x2="-38.35" y2="-3.425" width="0.05" layer="39"/>
+<text x="-38.1" y="4.19" size="1.27" layer="25">&gt;NAME</text>
+<text x="-38.1" y="-5.44" size="1.27" layer="27">&gt;VALUE</text>
+<circle x="37.08" y="-3.935" radius="0.1" width="0.2" layer="21"/>
+<circle x="37.08" y="-3.935" radius="0.1" width="0.2" layer="51"/>
+<smd name="01" x="36.83" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="02" x="34.29" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="03" x="31.75" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="04" x="29.21" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="05" x="26.67" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="06" x="24.13" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="07" x="21.59" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="08" x="19.05" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="09" x="16.51" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="10" x="13.97" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="11" x="11.43" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="12" x="8.89" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="13" x="6.35" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="14" x="3.81" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="15" x="1.27" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="16" x="-1.27" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="17" x="-3.81" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="18" x="-6.35" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="19" x="-8.89" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="20" x="-11.43" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="21" x="-13.97" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="22" x="-16.51" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="23" x="-19.05" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="24" x="-21.59" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="25" x="-24.13" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="26" x="-26.67" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="27" x="-29.21" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="28" x="-31.75" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="29" x="-34.29" y="-1.46" dx="1.27" dy="3.43" layer="1"/>
+<smd name="30" x="-36.83" y="1.46" dx="1.27" dy="3.43" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TSM-130-01-F-SV">
+<wire x1="-5.08" y1="38.1" x2="-5.08" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-40.64" x2="5.08" y2="-40.64" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-40.64" x2="5.08" y2="38.1" width="0.254" layer="94"/>
+<wire x1="5.08" y1="38.1" x2="-5.08" y2="38.1" width="0.254" layer="94"/>
+<text x="-5.58" y="39.216" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-43.18" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="01" x="-10.16" y="35.56" length="middle" direction="pas"/>
+<pin name="02" x="-10.16" y="33.02" length="middle" direction="pas"/>
+<pin name="03" x="-10.16" y="30.48" length="middle" direction="pas"/>
+<pin name="04" x="-10.16" y="27.94" length="middle" direction="pas"/>
+<pin name="05" x="-10.16" y="25.4" length="middle" direction="pas"/>
+<pin name="06" x="-10.16" y="22.86" length="middle" direction="pas"/>
+<pin name="07" x="-10.16" y="20.32" length="middle" direction="pas"/>
+<pin name="08" x="-10.16" y="17.78" length="middle" direction="pas"/>
+<pin name="09" x="-10.16" y="15.24" length="middle" direction="pas"/>
+<pin name="10" x="-10.16" y="12.7" length="middle" direction="pas"/>
+<pin name="11" x="-10.16" y="10.16" length="middle" direction="pas"/>
+<pin name="12" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="13" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="14" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="15" x="-10.16" y="0" length="middle" direction="pas"/>
+<pin name="16" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="17" x="-10.16" y="-5.08" length="middle" direction="pas"/>
+<pin name="18" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+<pin name="19" x="-10.16" y="-10.16" length="middle" direction="pas"/>
+<pin name="20" x="-10.16" y="-12.7" length="middle" direction="pas"/>
+<pin name="21" x="-10.16" y="-15.24" length="middle" direction="pas"/>
+<pin name="22" x="-10.16" y="-17.78" length="middle" direction="pas"/>
+<pin name="23" x="-10.16" y="-20.32" length="middle" direction="pas"/>
+<pin name="24" x="-10.16" y="-22.86" length="middle" direction="pas"/>
+<pin name="25" x="-10.16" y="-25.4" length="middle" direction="pas"/>
+<pin name="26" x="-10.16" y="-27.94" length="middle" direction="pas"/>
+<pin name="27" x="-10.16" y="-30.48" length="middle" direction="pas"/>
+<pin name="28" x="-10.16" y="-33.02" length="middle" direction="pas"/>
+<pin name="29" x="-10.16" y="-35.56" length="middle" direction="pas"/>
+<pin name="30" x="-10.16" y="-38.1" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TSM-130-01-F-SV" prefix="J">
+<gates>
+<gate name="G$1" symbol="TSM-130-01-F-SV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAMTEC_TSM-130-01-F-SV">
+<connects>
+<connect gate="G$1" pin="01" pad="01"/>
+<connect gate="G$1" pin="02" pad="02"/>
+<connect gate="G$1" pin="03" pad="03"/>
+<connect gate="G$1" pin="04" pad="04"/>
+<connect gate="G$1" pin="05" pad="05"/>
+<connect gate="G$1" pin="06" pad="06"/>
+<connect gate="G$1" pin="07" pad="07"/>
+<connect gate="G$1" pin="08" pad="08"/>
+<connect gate="G$1" pin="09" pad="09"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="30" pad="30"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="SAMTEC "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9370,6 +9510,7 @@ Package 0603; Isat = 100 mA</description>
 <part name="JP1" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP2" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="R21" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="J1" library="TSM-130-01-F-SV" deviceset="TSM-130-01-F-SV" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10047,6 +10188,10 @@ Package 0603; Isat = 100 mA</description>
 <instance part="R20" gate="G$1" x="132.08" y="86.36" smashed="yes">
 <attribute name="NAME" x="131.318" y="87.3506" size="1.27" layer="95"/>
 <attribute name="VALUE" x="128.27" y="83.058" size="1.778" layer="96"/>
+</instance>
+<instance part="J1" gate="G$1" x="68.58" y="-17.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="107.796" y="-12.2" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="25.4" y="-12.7" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>

@@ -273,6 +273,7 @@ UsedLibrary="C:/Users/edvar/Google Drive/Study/2021/UCL 2 year/MRes Project/EAGL
 UsedLibrary="C:/Users/edvar/Google Drive/Study/2021/UCL 2 year/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/sVNScomponents.lbr"
 UsedLibrary="C:/Users/edvar/Google Drive/Study/2021/UCL 2 year/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/SamacSys_Parts.lbr"
 UsedLibrary="C:/Users/edvar/Google Drive/Study/2021/UCL 2 year/MRes Project/EAGLE/projects/sVNS_16chan/sVNS16chan_parts/N2510-6002RB.lbr"
+UsedLibrary="C:/Users/edvar/Google Drive/Study/2021/UCL 2 year/MRes Project/Components and research/Connectors/TSM-130-01-F-SV.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -282,7 +283,7 @@ Number=0
 Type="Schematic Editor"
 Number=2
 File="sVNS_16chan.sch"
-View="-53.6357 -12.956 266.949 174.118"
+View="-46.084 -83.8245 225.52 103.249"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -321,14 +322,14 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -53.6357 -12.956 266.949 174.118"
-Sheet="1"
+Views=" 1: -119.965 -49.6943 341.677 219.692 2: -46.084 -83.8245 225.52 103.249"
+Sheet="2"
 
 [Win_3]
 Type="Board Editor"
 Number=1
 File="sVNS_16chan.brd"
-View="-1.70841 -0.174838 30.2396 15.3671"
+View="-9.32624 -3.46967 45.8799 23.3868"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
