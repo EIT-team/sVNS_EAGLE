@@ -998,6 +998,18 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
+<package name="R0603" urn="urn:adsk.eagle:footprint:23044/1" locally_modified="yes">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
 <package name="R0402" urn="urn:adsk.eagle:footprint:23043/3" locally_modified="yes">
 <description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
 <wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
@@ -1019,6 +1031,12 @@ DIN A4, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:23555/3" type="model">
+<description>RESISTOR</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:23547/3" type="model">
 <description>Chip RESISTOR 0402 EIA (1005 Metric)</description>
 <packageinstances>
@@ -1149,7 +1167,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMD_PADS" prefix="R" uservalue="yes">
+<deviceset name="SMD_PADS_0603" prefix="R" uservalue="yes">
 <description>&lt;B&gt;SMD pads without the resistor&lt;/B&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -1168,6 +1186,18 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23555/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9495,21 +9525,21 @@ Package 0603; Isat = 100 mA</description>
 <part name="GROUND_CONNECTION" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2" value="GND"/>
 <part name="DEBUG_N_2510_SOCKET" library="N2510-6002RB" deviceset="N2510-6002RB" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1 uF"/>
-<part name="R12" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R14" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R15" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R16" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R17" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R18" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R19" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R20" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R22" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R23" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R24" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
-<part name="R25" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R12" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R14" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R15" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R16" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R17" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R18" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R19" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R20" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R22" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R23" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R24" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R25" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="JP1" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="JP2" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="R21" library="sVNS_16chan_lib" deviceset="SMD_PADS" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3"/>
+<part name="R21" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="J1" library="TSM-130-01-F-SV" deviceset="TSM-130-01-F-SV" device=""/>
 </parts>
 <sheets>
