@@ -10434,11 +10434,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="71.12" y1="96.52" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="73.66" y="96.52" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="99.06" y1="40.64" x2="86.36" y2="40.64" width="0.1524" layer="91"/>
-<label x="88.9" y="40.64" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S13A" class="0">
 <segment>
@@ -10446,11 +10441,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="99.06" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="121.92" y1="40.64" x2="134.62" y2="40.64" width="0.1524" layer="91"/>
-<label x="132.08" y="40.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S12A" class="0">
@@ -10460,11 +10450,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="66.04" y1="101.6" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <label x="68.58" y="101.6" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="43.18" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="43.18" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S11A" class="0">
 <segment>
@@ -10472,11 +10457,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="104.14" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
 <label x="66.04" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="43.18" x2="134.62" y2="43.18" width="0.1524" layer="91"/>
-<label x="132.08" y="43.18" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S10A" class="0">
@@ -10486,11 +10466,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="60.96" y1="106.68" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <label x="63.5" y="106.68" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="10"/>
-<wire x1="33.02" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
-<label x="22.86" y="33.02" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S9A" class="0">
 <segment>
@@ -10498,11 +10473,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="109.22" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="9"/>
-<wire x1="55.88" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
-<label x="66.04" y="33.02" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S8A" class="0">
@@ -10512,11 +10482,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="55.88" y1="111.76" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="111.76" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="33.02" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
-<label x="22.86" y="35.56" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S7A" class="0">
 <segment>
@@ -10524,11 +10489,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="114.3" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="55.88" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
-<label x="66.04" y="35.56" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S6A" class="0">
@@ -10538,11 +10498,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="50.8" y1="116.84" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="116.84" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<wire x1="33.02" y1="38.1" x2="20.32" y2="38.1" width="0.1524" layer="91"/>
-<label x="22.86" y="38.1" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S5A" class="0">
 <segment>
@@ -10550,11 +10505,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="119.38" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="5"/>
-<wire x1="55.88" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
-<label x="66.04" y="38.1" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S4A" class="0">
@@ -10564,11 +10514,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="45.72" y1="121.92" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="121.92" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="33.02" y1="40.64" x2="20.32" y2="40.64" width="0.1524" layer="91"/>
-<label x="22.86" y="40.64" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S3A" class="0">
 <segment>
@@ -10576,11 +10521,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="124.46" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="124.46" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="55.88" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
-<label x="66.04" y="40.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S2A" class="0">
@@ -10590,11 +10530,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="40.64" y1="127" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="127" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="33.02" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
-<label x="22.86" y="43.18" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S1A" class="0">
 <segment>
@@ -10602,11 +10537,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="78.74" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="129.54" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
-<label x="66.04" y="43.18" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S16B" class="0">
@@ -10632,11 +10562,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S14"/>
 <label x="170.18" y="96.52" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="8"/>
-<wire x1="99.06" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
-<label x="88.9" y="35.56" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S13B" class="0">
 <segment>
@@ -10644,11 +10569,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="165.1" y1="99.06" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S13"/>
 <label x="167.64" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="7"/>
-<wire x1="121.92" y1="35.56" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
-<label x="132.08" y="35.56" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S12B" class="0">
@@ -10658,11 +10578,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S12"/>
 <label x="165.1" y="101.6" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="99.06" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<label x="88.9" y="38.1" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S11B" class="0">
 <segment>
@@ -10670,11 +10585,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="160.02" y1="104.14" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S11"/>
 <label x="162.56" y="104.14" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="121.92" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
-<label x="132.08" y="38.1" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S10B" class="0">
@@ -10684,11 +10594,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S10"/>
 <label x="160.02" y="106.68" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="10"/>
-<wire x1="172.72" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
-<label x="162.56" y="33.02" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S9B" class="0">
 <segment>
@@ -10696,11 +10601,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="154.94" y1="109.22" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S9"/>
 <label x="157.48" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="9"/>
-<wire x1="195.58" y1="33.02" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
-<label x="205.74" y="33.02" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S8B" class="0">
@@ -10710,11 +10610,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S8"/>
 <label x="157.48" y="111.76" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="8"/>
-<wire x1="172.72" y1="35.56" x2="160.02" y2="35.56" width="0.1524" layer="91"/>
-<label x="162.56" y="35.56" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S7B" class="0">
 <segment>
@@ -10722,11 +10617,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="149.86" y1="114.3" x2="149.86" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S7"/>
 <label x="157.48" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="7"/>
-<wire x1="195.58" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
-<label x="205.74" y="35.56" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S6B" class="0">
@@ -10736,11 +10626,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S6"/>
 <label x="157.48" y="116.84" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="6"/>
-<wire x1="172.72" y1="38.1" x2="160.02" y2="38.1" width="0.1524" layer="91"/>
-<label x="162.56" y="38.1" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S5B" class="0">
 <segment>
@@ -10748,11 +10633,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="144.78" y1="119.38" x2="144.78" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S5"/>
 <label x="157.48" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<wire x1="195.58" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
-<label x="205.74" y="38.1" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S4B" class="0">
@@ -10762,11 +10642,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S4"/>
 <label x="157.48" y="121.92" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="172.72" y1="40.64" x2="160.02" y2="40.64" width="0.1524" layer="91"/>
-<label x="162.56" y="40.64" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S3B" class="0">
 <segment>
@@ -10774,11 +10649,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="139.7" y1="124.46" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S3"/>
 <label x="157.48" y="124.46" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="40.64" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
-<label x="205.74" y="40.64" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="S2B" class="0">
@@ -10788,11 +10658,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="U4" gate="A" pin="S2"/>
 <label x="157.48" y="127" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
-<label x="162.56" y="43.18" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="S1B" class="0">
 <segment>
@@ -10800,11 +10665,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="134.62" y1="129.54" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S1"/>
 <label x="157.48" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="43.18" x2="208.28" y2="43.18" width="0.1524" layer="91"/>
-<label x="205.74" y="43.18" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="GND" class="0">
