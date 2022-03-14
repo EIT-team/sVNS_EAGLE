@@ -9586,14 +9586,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 </net>
 <net name="P0.7_IREF" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="P0.7"/>
-<wire x1="88.9" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
-<label x="114.3" y="134.62" size="1.778" layer="95" align="bottom-right"/>
-<wire x1="119.38" y1="134.62" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="134.62" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
 <label x="142.24" y="144.78" size="1.27" layer="95" rot="R180"/>
 <pinref part="R30" gate="G$1" pin="1"/>
@@ -10035,6 +10027,16 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="134.62" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="SDA"/>
+</segment>
+</net>
+<net name="P0.7_IREF_PIN" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="P0.7"/>
+<wire x1="88.9" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
+<label x="114.3" y="134.62" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="119.38" y1="134.62" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
