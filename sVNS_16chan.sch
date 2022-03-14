@@ -9403,7 +9403,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <part name="R18" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R19" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R20" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
-<part name="R23" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R24" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="R25" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="JP1" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
@@ -9420,6 +9419,7 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="100k"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.3M"/>
 <part name="R30" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="R23" library="sVNS_16chan_lib" deviceset="SMD_PADS_0603" device="" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -9506,10 +9506,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <attribute name="NAME" x="131.064" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="131.064" y="76.581" size="1.778" layer="96"/>
 </instance>
-<instance part="R23" gate="G$1" x="50.8" y="73.66" smashed="yes">
-<attribute name="NAME" x="50.038" y="74.6506" size="1.27" layer="95"/>
-<attribute name="VALUE" x="46.99" y="70.358" size="1.778" layer="96"/>
-</instance>
 <instance part="R24" gate="G$1" x="30.48" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.4894" y="22.098" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="33.782" y="19.05" size="1.778" layer="96" rot="R90"/>
@@ -9557,6 +9553,10 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <instance part="R30" gate="G$1" x="129.54" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="130.302" y="143.7894" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="133.35" y="148.082" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R23" gate="G$1" x="53.34" y="88.9" smashed="yes">
+<attribute name="NAME" x="52.578" y="89.8906" size="1.27" layer="95"/>
+<attribute name="VALUE" x="49.53" y="85.598" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9773,20 +9773,14 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<junction x="58.42" y="73.66"/>
-<wire x1="58.42" y1="73.66" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="68.58" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
-<label x="58.42" y="88.9" size="1.778" layer="95"/>
-<pinref part="U2" gate="G$1" pin="VCC"/>
-<wire x1="58.42" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="73.66" x2="55.88" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="147.32" x2="10.16" y2="149.86" width="0.1524" layer="91"/>
 <label x="7.62" y="149.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<label x="43.18" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="FBP" class="0">
@@ -9827,14 +9821,6 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="68.58" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SW"/>
-</segment>
-</net>
-<net name="+3.3V_LT8410_VCC" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<label x="42.164" y="70.866" size="0.6096" layer="95"/>
 </segment>
 </net>
 <net name="+3.3V_PIN" class="0">
@@ -10037,6 +10023,21 @@ Source: &lt;a href="https://www.silabs.com/documents/public/data-sheets/efm8sb1-
 <wire x1="119.38" y1="134.62" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R30" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+3.3V_LT8410_VCC" class="0">
+<segment>
+<junction x="58.42" y="73.66"/>
+<wire x1="58.42" y1="73.66" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="68.58" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<label x="58.42" y="88.9" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="VCC"/>
+<wire x1="58.42" y1="73.66" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<label x="42.164" y="70.866" size="0.6096" layer="95"/>
+<wire x1="58.42" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
