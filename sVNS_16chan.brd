@@ -2863,52 +2863,52 @@ Your Eurocircuits Team
 <wire x1="6.0402" y1="17.7242" x2="6.2992" y2="17.9832" width="0.254" layer="16"/>
 <wire x1="6.2992" y1="17.9832" x2="6.7718" y2="17.9832" width="0.254" layer="16"/>
 </signal>
-<signal name="S16A">
+<signal name="S16A_1">
 <contactref element="U3" pad="1"/>
 </signal>
-<signal name="S15A">
+<signal name="S15A_2">
 <contactref element="U3" pad="2"/>
 </signal>
 <signal name="S14A">
 <contactref element="U3" pad="3"/>
 </signal>
-<signal name="S13A">
+<signal name="S13A_30">
 <contactref element="U3" pad="4"/>
 </signal>
-<signal name="S12A">
+<signal name="S12A_25">
 <contactref element="U3" pad="5"/>
 </signal>
-<signal name="S11A">
+<signal name="S11A_20">
 <contactref element="U3" pad="6"/>
 </signal>
-<signal name="S10A">
+<signal name="S10A_11">
 <contactref element="U3" pad="7"/>
 </signal>
-<signal name="S9A">
+<signal name="S9A_6">
 <contactref element="U3" pad="8"/>
 </signal>
-<signal name="S8A">
+<signal name="S8A_7">
 <contactref element="U3" pad="24"/>
 </signal>
-<signal name="S7A">
+<signal name="S7A_12">
 <contactref element="U3" pad="23"/>
 </signal>
-<signal name="S6A">
+<signal name="S6A_21">
 <contactref element="U3" pad="22"/>
 </signal>
-<signal name="S5A">
+<signal name="S5A_26">
 <contactref element="U3" pad="21"/>
 </signal>
-<signal name="S4A">
+<signal name="S4A_13">
 <contactref element="U3" pad="20"/>
 </signal>
-<signal name="S3A">
+<signal name="S3A_3">
 <contactref element="U3" pad="19"/>
 </signal>
-<signal name="S2A">
+<signal name="S2A_8">
 <contactref element="U3" pad="18"/>
 </signal>
-<signal name="S1A">
+<signal name="S1A_14">
 <contactref element="U3" pad="17"/>
 </signal>
 <signal name="DA">
@@ -2940,52 +2940,52 @@ Your Eurocircuits Team
 <wire x1="14.5288" y1="16.31581875" x2="14.5288" y2="17.6784" width="0.254" layer="16"/>
 <wire x1="11.2332" y1="13.02021875" x2="14.5288" y2="16.31581875" width="0.254" layer="16"/>
 </signal>
-<signal name="S16B">
+<signal name="S16B_19">
 <contactref element="U4" pad="1"/>
 </signal>
-<signal name="S15B">
+<signal name="S15B_17">
 <contactref element="U4" pad="2"/>
 </signal>
 <signal name="S14B">
 <contactref element="U4" pad="3"/>
 </signal>
-<signal name="S13B">
+<signal name="S13B_5">
 <contactref element="U4" pad="4"/>
 </signal>
-<signal name="S12B">
+<signal name="S12B_10">
 <contactref element="U4" pad="5"/>
 </signal>
-<signal name="S11B">
+<signal name="S11B_18">
 <contactref element="U4" pad="6"/>
 </signal>
-<signal name="S10B">
+<signal name="S10B_24">
 <contactref element="U4" pad="7"/>
 </signal>
-<signal name="S9B">
+<signal name="S9B_29">
 <contactref element="U4" pad="8"/>
 </signal>
-<signal name="S8B">
+<signal name="S8B_28">
 <contactref element="U4" pad="24"/>
 </signal>
-<signal name="S7B">
+<signal name="S7B_23">
 <contactref element="U4" pad="23"/>
 </signal>
-<signal name="S6B">
+<signal name="S6B_16">
 <contactref element="U4" pad="22"/>
 </signal>
-<signal name="S5B">
+<signal name="S5B_9">
 <contactref element="U4" pad="21"/>
 </signal>
-<signal name="S4B">
+<signal name="S4B_4">
 <contactref element="U4" pad="20"/>
 </signal>
-<signal name="S3B">
+<signal name="S3B_15">
 <contactref element="U4" pad="19"/>
 </signal>
-<signal name="S2B">
+<signal name="S2B_27">
 <contactref element="U4" pad="18"/>
 </signal>
-<signal name="S1B">
+<signal name="S1B_22">
 <contactref element="U4" pad="17"/>
 </signal>
 <signal name="I_OUT-">
