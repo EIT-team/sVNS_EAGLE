@@ -10404,6 +10404,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="76.2" y1="91.44" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="76.2" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="10"/>
+<wire x1="172.72" y1="33.02" x2="165.1" y2="33.02" width="0.1524" layer="91"/>
+<label x="170.18" y="33.02" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S15A_2" class="0">
 <segment>
@@ -10411,6 +10416,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="93.98" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="93.98" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <label x="73.66" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="8"/>
+<wire x1="172.72" y1="35.56" x2="165.1" y2="35.56" width="0.1524" layer="91"/>
+<label x="170.18" y="35.56" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S14A" class="0">
@@ -10428,6 +10438,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="68.58" y1="99.06" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="9"/>
+<wire x1="55.88" y1="33.02" x2="63.5" y2="33.02" width="0.1524" layer="91"/>
+<label x="58.42" y="33.02" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S12A_25" class="0">
 <segment>
@@ -10435,6 +10450,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="101.6" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <label x="68.58" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="9"/>
+<wire x1="121.92" y1="33.02" x2="129.54" y2="33.02" width="0.1524" layer="91"/>
+<label x="124.46" y="33.02" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="S11A_20" class="0">
@@ -10444,6 +10464,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="63.5" y1="104.14" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
 <label x="66.04" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="9"/>
+<wire x1="195.58" y1="33.02" x2="203.2" y2="33.02" width="0.1524" layer="91"/>
+<label x="198.12" y="33.02" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S10A_11" class="0">
 <segment>
@@ -10451,6 +10476,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="106.68" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="106.68" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <label x="63.5" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="10"/>
+<wire x1="33.02" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S9A_6" class="0">
@@ -10460,6 +10490,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="58.42" y1="109.22" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="10"/>
+<wire x1="99.06" y1="33.02" x2="91.44" y2="33.02" width="0.1524" layer="91"/>
+<label x="96.52" y="33.02" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S8A_7" class="0">
 <segment>
@@ -10467,6 +10502,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="111.76" x2="55.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="111.76" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="8"/>
+<wire x1="99.06" y1="35.56" x2="91.44" y2="35.56" width="0.1524" layer="91"/>
+<label x="96.52" y="35.56" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S7A_12" class="0">
@@ -10476,6 +10516,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="53.34" y1="114.3" x2="53.34" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="33.02" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<label x="30.48" y="35.56" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S6A_21" class="0">
 <segment>
@@ -10483,6 +10528,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="116.84" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="7"/>
+<wire x1="195.58" y1="35.56" x2="203.2" y2="35.56" width="0.1524" layer="91"/>
+<label x="198.12" y="35.56" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="S5A_26" class="0">
@@ -10492,6 +10542,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="48.26" y1="119.38" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="7"/>
+<wire x1="121.92" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
+<label x="124.46" y="35.56" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S4A_13" class="0">
 <segment>
@@ -10499,6 +10554,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="121.92" x2="45.72" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="121.92" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="55.88" y1="35.56" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
+<label x="58.42" y="35.56" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="S3A_3" class="0">
@@ -10508,6 +10568,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="43.18" y1="124.46" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="6"/>
+<wire x1="172.72" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
+<label x="170.18" y="38.1" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S2A_8" class="0">
 <segment>
@@ -10515,6 +10580,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="78.74" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="127" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="6"/>
+<wire x1="99.06" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<label x="96.52" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S1A_14" class="0">
@@ -10524,6 +10594,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="38.1" y1="129.54" x2="38.1" y2="78.74" width="0.1524" layer="91"/>
 <label x="60.96" y="129.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="33.02" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<label x="30.48" y="38.1" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S16B_19" class="0">
 <segment>
@@ -10532,6 +10607,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S16"/>
 <label x="172.72" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="55.88" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
+<label x="58.42" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="S15B_17" class="0">
 <segment>
@@ -10539,6 +10619,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="170.18" y1="93.98" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S15"/>
 <label x="170.18" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="55.88" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
+<label x="58.42" y="40.64" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="S14B" class="0">
@@ -10556,6 +10641,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S13"/>
 <label x="167.64" y="99.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="172.72" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
+<label x="170.18" y="43.18" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S12B_10" class="0">
 <segment>
@@ -10563,6 +10653,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="162.56" y1="101.6" x2="162.56" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S12"/>
 <label x="165.1" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+<label x="96.52" y="43.18" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S11B_18" class="0">
@@ -10572,6 +10667,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S11"/>
 <label x="162.56" y="104.14" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<label x="30.48" y="43.18" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S10B_24" class="0">
 <segment>
@@ -10579,6 +10679,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="157.48" y1="106.68" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S10"/>
 <label x="160.02" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<label x="198.12" y="43.18" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="S9B_29" class="0">
@@ -10588,6 +10693,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S9"/>
 <label x="157.48" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="43.18" x2="129.54" y2="43.18" width="0.1524" layer="91"/>
+<label x="124.46" y="43.18" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S8B_28" class="0">
 <segment>
@@ -10595,6 +10705,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="152.4" y1="111.76" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S8"/>
 <label x="157.48" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="121.92" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<label x="124.46" y="40.64" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="S7B_23" class="0">
@@ -10604,6 +10719,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S7"/>
 <label x="157.48" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="3"/>
+<wire x1="195.58" y1="40.64" x2="203.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="198.12" y="40.64" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S6B_16" class="0">
 <segment>
@@ -10611,6 +10731,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="147.32" y1="116.84" x2="147.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S6"/>
 <label x="157.48" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<label x="30.48" y="40.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S5B_9" class="0">
@@ -10620,6 +10745,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S5"/>
 <label x="157.48" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="99.06" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
+<label x="96.52" y="40.64" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="S4B_4" class="0">
 <segment>
@@ -10627,6 +10757,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="142.24" y1="121.92" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S4"/>
 <label x="157.48" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="4"/>
+<wire x1="172.72" y1="40.64" x2="165.1" y2="40.64" width="0.1524" layer="91"/>
+<label x="170.18" y="40.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="S3B_15" class="0">
@@ -10636,6 +10771,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S3"/>
 <label x="157.48" y="124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="55.88" y1="38.1" x2="63.5" y2="38.1" width="0.1524" layer="91"/>
+<label x="58.42" y="38.1" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S2B_27" class="0">
 <segment>
@@ -10644,6 +10784,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <pinref part="U4" gate="A" pin="S2"/>
 <label x="157.48" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="121.92" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
+<label x="124.46" y="38.1" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
+</segment>
 </net>
 <net name="S1B_22" class="0">
 <segment>
@@ -10651,6 +10796,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <wire x1="134.62" y1="129.54" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="S1"/>
 <label x="157.48" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="5"/>
+<wire x1="195.58" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
+<label x="198.12" y="38.1" size="1.778" layer="95" rot="MR0" align="bottom-right"/>
 </segment>
 </net>
 <net name="GND" class="0">
