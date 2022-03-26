@@ -188,23 +188,26 @@
 </layers>
 <board>
 <plain>
-<wire x1="-19.1008" y1="0" x2="29.7488" y2="0" width="0" layer="20"/>
-<wire x1="29.7488" y1="0" x2="32.0348" y2="2.286" width="0" layer="20" curve="90"/>
-<wire x1="32.0348" y1="2.286" x2="32.0348" y2="22.784" width="0" layer="20"/>
-<wire x1="32.0348" y1="22.784" x2="29.7996" y2="25.0954" width="0" layer="20" curve="90"/>
-<wire x1="29.7996" y1="25.0954" x2="3.8608" y2="25.0954" width="0" layer="20"/>
 <text x="30.2768" y="21.0312" size="0.508" layer="26" font="vector" rot="R90">+20V
 plane</text>
 <text x="2.4384" y="22.352" size="0.508" layer="26" font="vector" rot="R90">+3.3V
 plane</text>
-<wire x1="-18.9992" y1="25.0952" x2="-19.1008" y2="0" width="0" layer="20"/>
 <text x="0.6096" y="21.7424" size="0.127" layer="25" font="vector">Generated 3.3V</text>
 <text x="12.0904" y="22.6568" size="0.127" layer="25" font="vector">Converted 20V</text>
 <text x="11.8872" y="22.6568" size="0.127" layer="26" font="vector" rot="MR0">Converted 20V</text>
-<dimension x1="-0.508" y1="21.0568" x2="32.004" y2="21.0312" x3="15.754078125" y3="28.764315625" textsize="1.778" layer="25"/>
-<dimension x1="29.7488" y1="25.07" x2="29.7488" y2="0" x3="36.1696" y3="12.535" textsize="1.778" layer="25"/>
-<wire x1="3.8608" y1="25.0952" x2="-18.9992" y2="25.0952" width="0" layer="20"/>
 <wire x1="-0.508" y1="25.0952" x2="-0.508" y2="0" width="0.127" layer="21" style="longdash"/>
+<wire x1="-18.9992" y1="0" x2="30.861" y2="0" width="0" layer="20"/>
+<wire x1="30.861" y1="0" x2="32.1056" y2="1.143" width="0" layer="20" curve="90"/>
+<wire x1="32.1056" y1="1.143" x2="32.1056" y2="23.9522" width="0" layer="20"/>
+<wire x1="32.1056" y1="23.9522" x2="30.861" y2="25.0952" width="0" layer="20" curve="90"/>
+<wire x1="30.861" y1="25.0952" x2="-18.9992" y2="25.0952" width="0" layer="20"/>
+<wire x1="-18.9992" y1="25.0952" x2="-18.9992" y2="0" width="0" layer="20"/>
+<wire x1="-18.9992" y1="25.0952" x2="30.861" y2="25.0952" width="0" layer="39"/>
+<wire x1="30.861" y1="25.0952" x2="32.1056" y2="23.9522" width="0" layer="39" curve="-90"/>
+<wire x1="32.1056" y1="23.9522" x2="32.1056" y2="1.143" width="0" layer="39"/>
+<wire x1="32.1056" y1="1.143" x2="30.861" y2="0" width="0" layer="39" curve="-90"/>
+<wire x1="30.861" y1="0" x2="-18.9992" y2="0" width="0" layer="39"/>
+<wire x1="-18.9992" y1="0" x2="-18.9992" y2="25.0952" width="0" layer="39"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
