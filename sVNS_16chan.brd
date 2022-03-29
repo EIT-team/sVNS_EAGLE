@@ -197,13 +197,25 @@
 plane</text>
 <text x="2.4384" y="22.352" size="0.508" layer="26" font="vector" rot="R90">+3.3V
 plane</text>
-<wire x1="-18.9992" y1="25.0952" x2="-18.9992" y2="0" width="0" layer="20"/>
 <text x="0.6096" y="21.7424" size="0.127" layer="25" font="vector">Generated 3.3V</text>
 <text x="12.0904" y="22.6568" size="0.127" layer="25" font="vector">Converted 20V</text>
 <text x="11.8872" y="22.6568" size="0.127" layer="26" font="vector" rot="MR0">Converted 20V</text>
-<wire x1="-18.9992" y1="25.0952" x2="3.8608" y2="25.0952" width="0" layer="20"/>
 <text x="-14.0208" y="16.9672" size="0.254" layer="25" rot="R90">+3.3V</text>
 <text x="-13.9192" y="19.5072" size="0.254" layer="25" rot="R90">GND</text>
+<wire x1="-18.9992" y1="25.0952" x2="29.8196" y2="25.0952" width="0" layer="39"/>
+<wire x1="29.8196" y1="25.0952" x2="32.1056" y2="22.8092" width="0" layer="39" curve="-90"/>
+<wire x1="32.1056" y1="22.8092" x2="32.1056" y2="2.286" width="0" layer="39"/>
+<wire x1="32.1056" y1="2.286" x2="29.8196" y2="0" width="0" layer="39" curve="-90"/>
+<wire x1="29.8196" y1="0" x2="-18.9992" y2="0" width="0" layer="39"/>
+<wire x1="-18.9992" y1="0" x2="-18.9992" y2="25.0952" width="0" layer="39"/>
+<wire x1="-18.9992" y1="25.0952" x2="29.8196" y2="25.0952" width="0" layer="20"/>
+<wire x1="29.8196" y1="25.0952" x2="32.1056" y2="22.8092" width="0" layer="20" curve="-90"/>
+<wire x1="32.1056" y1="22.8092" x2="32.1056" y2="2.286" width="0" layer="20"/>
+<wire x1="32.1056" y1="2.286" x2="29.8196" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="29.8196" y1="0" x2="29.7488" y2="0" width="0" layer="20"/>
+<wire x1="-18.9992" y1="0" x2="-18.9992" y2="25.0952" width="0" layer="20"/>
+<dimension x1="-18.9992" y1="25.0952" x2="32.1056" y2="25.0952" x3="6.5532" y3="30.6832" textsize="0.254" layer="20"/>
+<dimension x1="-18.9992" y1="25.0952" x2="-18.9992" y2="0" x3="-21.4376" y3="12.5476" textsize="0.254" layer="20"/>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -1929,8 +1941,8 @@ If you need lower minimum values, please use a different Eurocircuits-EAGLE desi
 Your Eurocircuits Team
 </description>
 <param name="layerSetup" value="(1+2*15+16)"/>
-<param name="mtCopper" value="0.012mm 0.018mm 0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.012mm"/>
-<param name="mtIsolate" value="0.36mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.018mm 0.035mm 0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
+<param name="mtIsolate" value="0.18mm 1.6mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.18mm"/>
 <param name="mdWireWire" value="0.1mm"/>
 <param name="mdWirePad" value="0.1mm"/>
 <param name="mdWireVia" value="0.1mm"/>
