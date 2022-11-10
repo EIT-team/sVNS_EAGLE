@@ -9432,6 +9432,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <text x="203.2" y="104.14" size="3.81" layer="91">Debug connector</text>
 <text x="12.7" y="35.56" size="3.81" layer="91">Generated power check</text>
 <text x="35.56" y="165.1" size="1.778" layer="91">EFM8 decoupling</text>
+<text x="165.1" y="10.16" size="2.54" layer="94">MCU, NFC, voltage converter, 
+programming connector, 
+power pins</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="190.5" y="137.16" smashed="yes">
@@ -10029,6 +10032,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 </sheet>
 <sheet>
 <plain>
+<text x="170.18" y="10.16" size="2.54" layer="94">Op amp circuitry,
+H-bridge</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
@@ -10350,6 +10355,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 </sheet>
 <sheet>
 <plain>
+<text x="170.18" y="10.16" size="2.54" layer="94">Output demultiplexer,
+cuff connector</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes">
@@ -10963,6 +10970,10 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
