@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="4" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
@@ -2694,9 +2694,9 @@ Your Eurocircuits Team
 <via x="4.9784" y="10.4648" extent="1-16" drill="0.35"/>
 <via x="15.902821875" y="16.106021875" extent="1-16" drill="0.35"/>
 <via x="13.4112" y="18.796" extent="1-16" drill="0.35"/>
-<wire x1="15.902821875" y1="16.106021875" x2="15.902821875" y2="16.405978125" width="0.1016" layer="2"/>
-<wire x1="15.902821875" y1="16.405978125" x2="13.5128" y2="18.796" width="0.1016" layer="2"/>
-<wire x1="13.5128" y1="18.796" x2="13.4112" y2="18.796" width="0.1016" layer="2"/>
+<wire x1="15.902821875" y1="16.106021875" x2="15.902821875" y2="16.405978125" width="0.254" layer="2"/>
+<wire x1="15.902821875" y1="16.405978125" x2="13.5128" y2="18.796" width="0.254" layer="2"/>
+<wire x1="13.5128" y1="18.796" x2="13.4112" y2="18.796" width="0.254" layer="2"/>
 <wire x1="13.4112" y1="18.796" x2="11.5824" y2="18.796" width="0.254" layer="15"/>
 <wire x1="11.5824" y1="18.796" x2="11.0744" y2="19.304" width="0.254" layer="15"/>
 <wire x1="13.716" y1="21.1315375" x2="13.716" y2="19.304" width="0.254" layer="16"/>
