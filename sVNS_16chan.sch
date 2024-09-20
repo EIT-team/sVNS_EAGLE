@@ -802,13 +802,6 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-1.7272" y="-0.635" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Name</text>
 </package>
-<package name="1X01" urn="urn:adsk.eagle:footprint:22382/1" locally_modified="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" shape="octagon"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
 <package name="QFN50P400X400X80-25T245N" urn="urn:adsk.eagle:footprint:34599406/1">
 <description>24-QFN, 0.50 mm pitch, 4.00 X 4.00 X 0.80 mm body, 2.45 X 2.45 mm thermal pad
 &lt;p&gt;24-pin QFN package with 0.50 mm pitch with body size 4.00 X 4.00 X 0.80 mm and thermal pad size 2.45 X 2.45 mm&lt;/p&gt;</description>
@@ -855,12 +848,6 @@ DIN A4, landscape with location and doc. field</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1X01" urn="urn:adsk.eagle:package:22485/2" type="model">
-<description>PIN HEADER</description>
-<packageinstances>
-<packageinstance name="1X01"/>
-</packageinstances>
-</package3d>
 <package3d name="QFN50P400X400X80-25T245N" urn="urn:adsk.eagle:package:34599369/1" type="model">
 <description>24-QFN, 0.50 mm pitch, 4.00 X 4.00 X 0.80 mm body, 2.45 X 2.45 mm thermal pad
 &lt;p&gt;24-pin QFN package with 0.50 mm pitch with body size 4.00 X 4.00 X 0.80 mm and thermal pad size 2.45 X 2.45 mm&lt;/p&gt;</description>
@@ -911,15 +898,6 @@ DIN A4, landscape with location and doc. field</description>
 <text x="-4.7244" y="1.4986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 <text x="-5.3594" y="-1.0414" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-</symbol>
-<symbol name="PINHD1">
-<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-6.35" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
 <symbol name="EFM8SB10F8A-A-QFN24">
 <wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
@@ -1004,27 +982,6 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="MFR_NAME" value="Texas Instruments" constant="no"/>
 <attribute name="REFDES" value="RefDes" constant="no"/>
 <attribute name="TYPE" value="TYPE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PINHD-1X1" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="PINHD1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X01">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22485/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="64" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9309,8 +9266,6 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M50-363.pdf"&gt; Datasheet &lt;/
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
 <part name="DEBUG_N_2510_SOCKET" library="N2510-6002RB" deviceset="N2510-6002RB" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1 uF"/>
-<part name="JP1" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="JP2" library="sVNS_16chan_lib" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="J1" library="M50-3631042" deviceset="M50-3631042" device=""/>
 <part name="J2" library="M50-3631042" deviceset="M50-3631042" device=""/>
 <part name="J3" library="M50-3631042" deviceset="M50-3631042" device=""/>
@@ -9401,14 +9356,6 @@ power pins</text>
 <attribute name="NAME" x="131.064" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="131.064" y="76.581" size="1.778" layer="96"/>
 </instance>
-<instance part="JP1" gate="G$1" x="241.3" y="137.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="242.57" y="139.065" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="234.95" y="142.24" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="JP2" gate="G$1" x="241.3" y="129.54" smashed="yes" rot="MR180">
-<attribute name="NAME" x="242.57" y="131.445" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="234.95" y="134.62" size="1.778" layer="96" rot="MR180"/>
-</instance>
 <instance part="IC3" gate="G$1" x="50.8" y="142.24" smashed="yes">
 <attribute name="NAME" x="34.29" y="149.86" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="34.29" y="147.32" size="1.778" layer="96" align="center-left"/>
@@ -9437,22 +9384,6 @@ power pins</text>
 <busses>
 </busses>
 <nets>
-<net name="LA" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="LA"/>
-<wire x1="208.28" y1="134.62" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="LB" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="LB"/>
-<wire x1="208.28" y1="132.08" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RSTB_/_C2CK" class="0">
 <segment>
 <pinref part="DEBUG_N_2510_SOCKET" gate="A" pin="7"/>
@@ -9833,6 +9764,21 @@ power pins</text>
 <wire x1="22.86" y1="116.84" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 <label x="48.26" y="116.84" size="1.778" layer="95" rot="MR0"/>
 <pinref part="IC3" gate="G$1" pin="P1.5"/>
+</segment>
+</net>
+<net name="LA" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="LB"/>
+<wire x1="208.28" y1="132.08" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="129.54" x2="243.84" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="134.62" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="132.08" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="LA"/>
+<wire x1="208.28" y1="134.62" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
